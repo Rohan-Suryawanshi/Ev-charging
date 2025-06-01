@@ -5,8 +5,16 @@ const store = createStore({
       chargers: [],
    },
    mutations: {
+      setChargers(state, payload) {
+         state.chargers = payload;
+      },
    },
    actions: {
+      async fetchChargers({ commit }) {
+         const res = await fetch("/api/chargers");
+         const data = await res.json();
+         commit("setChargers", data);
+      },
    },
 });
 
