@@ -10,7 +10,6 @@ It includes a **Vue 3 + Vite** frontend and a **Node.js + Express + MongoDB** ba
 - **Frontend Live:** [https://ev-charging-s5ya.vercel.app/](https://ev-charging-s5ya.vercel.app/)
 - **Backend API Live:** [https://your-backend-demo-url.com](https://your-backend-demo-url.com)
 
-_Replace the above URLs with your actual deployed links._
 
 ---
 
