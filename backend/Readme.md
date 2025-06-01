@@ -4,7 +4,7 @@ This is the backend for the EV Charging Stations project, built with **Node.js**
 
 ## Live URL
 
-- **Backend API Live URL:** [https://your-backend-live-url.com](https://your-backend-live-url.com)  
+- **Backend API Live URL:** [https://ev-charging-three.vercel.app](https://ev-charging-three.vercel.app)  
   _Replace with your actual deployed backend URL._
 
 ## Features

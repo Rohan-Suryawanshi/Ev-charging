@@ -2,6 +2,9 @@
 
 This is the frontend for the EV Charging Stations project, built with **Vue 3** and **Vite**.
 
+## 🚀 Demo URLs
+**Frontend Live:** [https://ev-charging-s5ya.vercel.app/](https://ev-charging-s5ya.vercel.app/)
+
 ## Features
 
 - User login via backend API
