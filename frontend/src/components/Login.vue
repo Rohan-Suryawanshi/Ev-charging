@@ -64,7 +64,7 @@ export default {
     async handleLogin() {
       this.errorMessage = "";
       try {
-        const response = await fetch("http://localhost:3000/api/v1/users/login", {
+        const response = await fetch("https://ev-charging-three.vercel.app/api/v1/users/login", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",

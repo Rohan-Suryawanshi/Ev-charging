@@ -105,7 +105,7 @@ export default {
       });
     },
     fetchStation(id) {
-      fetch(`http://localhost:3000/api/v1/stations/${id}`)
+      fetch(`https://ev-charging-three.vercel.app/api/v1/stations/${id}`)
         .then((res) => res.json())
         .then((response) => {
           const data = response.data;
@@ -138,8 +138,8 @@ export default {
     },
     submitForm() {
       const apiUrl = this.isEdit
-        ? `http://localhost:3000/api/v1/stations/${this.id}`
-        : `http://localhost:3000/api/v1/stations`;
+        ? `https://ev-charging-three.vercel.app/api/v1/stations/${this.id}`
+        : `https://ev-charging-three.vercel.app/api/v1/stations`;
 
       const token = localStorage.getItem('accessToken');
 

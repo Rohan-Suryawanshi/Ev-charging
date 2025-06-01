@@ -15,7 +15,7 @@ const evIcon = L.icon({
 const chargers = ref([]);
 
 onMounted(async () => {
-  const res = await fetch('http://localhost:3000/api/v1/stations');
+  const res = await fetch('https://ev-charging-three.vercel.app/api/v1/stations');
   const data = await res.json();
   chargers.value = data.data || [];
 

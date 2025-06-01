@@ -113,7 +113,7 @@ export default {
       if (filters.powerOutput) queryParams.append('powerOutput', filters.powerOutput);
       if (filters.connectorType) queryParams.append('connectorType', filters.connectorType);
 
-      const url = `http://localhost:3000/api/v1/stations/filter?${queryParams.toString()}`;
+      const url = `https://ev-charging-three.vercel.app/api/v1/stations/filter?${queryParams.toString()}`;
 
       fetch(url, {
         method: 'GET',
@@ -137,7 +137,7 @@ export default {
 
       const token = localStorage.getItem('accessToken'); 
 
-      fetch(`http://localhost:3000/api/v1/stations/${id}`, {
+      fetch(`https://ev-charging-three.vercel.app/api/v1/stations/${id}`, {
         method: 'DELETE',
         headers: {
           'Content-Type': 'application/json',
