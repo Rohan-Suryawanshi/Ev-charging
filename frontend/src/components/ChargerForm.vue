@@ -86,7 +86,7 @@ export default {
   },
   methods: {
     initMap() {
-      this.map = L.map('map').setView([50.7128, -80.006], 5); // Default center
+      this.map = L.map('map').setView([28.6139, 77.2090], 5); // Default center
 
       L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '&copy; OpenStreetMap contributors',
